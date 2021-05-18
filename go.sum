@@ -2,12 +2,6 @@ github.com/DataDog/datadog-go v4.7.0+incompatible h1:setZNZoivEjeG87iK0abKZ9XHwH
 github.com/DataDog/datadog-go v4.7.0+incompatible/go.mod h1:LButxg5PwREeZtORoXG3tL4fMGNddJ+vMq1mwgfaqoQ=
 github.com/Microsoft/go-winio v0.5.0 h1:Elr9Wn+sGKPlkaBvwu4mTrxtmOp3F3yV9qhaHbXGjwU=
 github.com/Microsoft/go-winio v0.5.0/go.mod h1:JPGBdM1cNvN/6ISo+n8V5iA4v8pBzdOpzfwIujj1a84=
-github.com/Nydan/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5 h1:jmwlBmMfqbLV4LE11dwfRVLH4zCGtiD/5KpT6Tz+wls=
-github.com/Nydan/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5/go.mod h1:G8oTzI7FM7U6339U7a9xnbRAuTl8vnCHLy4ByxvOrWc=
-github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5 h1:rFw4nCn9iMW+Vajsk51NtYIcwSTkXr+JGrMd36kTDJw=
-github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5/go.mod h1:SkGFH1ia65gfNATL8TAiHDNxPzPdmEL5uirI2Uyuz6c=
-github.com/cactus/go-statsd-client v1.0.1 h1:R58kYEe8CS4Dg7zNgGi8J0nFhYIGaBvIC7SHJ1l08is=
-github.com/cactus/go-statsd-client v3.2.1+incompatible h1:hSd8ARQzCrnKQUWKdOBbwhU1nGR/al1oiT1AeBzoaTY=
 github.com/cactus/go-statsd-client/v5 v5.0.0 h1:KqvIQtc9qt34uq+nu4nd1PwingWfBt/IISgtUQ2nSJk=
 github.com/cactus/go-statsd-client/v5 v5.0.0/go.mod h1:COEvJ1E+/E2L4q6QE5CkjWPi4eeDw9maJBMIuMPBZbY=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

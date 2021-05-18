@@ -2,9 +2,16 @@ hystrix-go
 ==========
 
 [![Build Status](https://travis-ci.org/afex/hystrix-go.png?branch=master)](https://travis-ci.org/afex/hystrix-go)
-[![GoDoc Documentation](http://godoc.org/github.com/afex/hystrix-go/hystrix?status.png)](https://godoc.org/github.com/afex/hystrix-go/hystrix)
+[![GoDoc Documentation](http://godoc.org/github.com/Nydan/hystrix-go/hystrix?status.png)](https://pkg.go.dev/github.com/Nydan/hystrix-go/hystrix)
 
 [Hystrix](https://github.com/Netflix/Hystrix) is a great project from Netflix.
+
+Notes:
+```
+This repo is a fork from original repo: https://github.com/afex/hystrix-go.
+
+The fork aiming to have a go.mod version of the original repository.
+```
 
 > Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 
@@ -14,13 +21,13 @@ hystrix-go aims to allow Go programmers to easily build applications with simila
 
 For more about how Hystrix works, refer to the [Java Hystrix wiki](https://github.com/Netflix/Hystrix/wiki)
 
-For API documentation, refer to [GoDoc](https://godoc.org/github.com/afex/hystrix-go/hystrix)
+For API documentation, refer to [GoDoc](https://godoc.org/github.com/Nydan/hystrix-go/hystrix)
 
 How to use
 ----------
 
 ```go
-import "github.com/afex/hystrix-go/hystrix"
+import "github.com/Nydan/hystrix-go/hystrix"
 ```
 
 ### Execute code as a Hystrix command
@@ -132,5 +139,5 @@ Build and Test
 - Install vagrant and VirtualBox
 - Clone the hystrix-go repository
 - Inside the hystrix-go directory, run ```vagrant up```, then ```vagrant ssh```
-- ```cd /go/src/github.com/afex/hystrix-go```
+- ```cd /go/src/github.com/Nydan/hystrix-go```
 - ```go test ./...```

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	metricCollector "github.com/afex/hystrix-go/hystrix/metric_collector"
+	metricCollector "github.com/Nydan/hystrix-go/hystrix/metric_collector"
 	"github.com/cactus/go-statsd-client/v5/statsd"
 )
 
@@ -75,8 +75,7 @@ func InitializeStatsdCollector(config *StatsdCollectorConfig) (*StatsdCollectorC
 
 	c, err := statsd.NewBufferedClient(config.StatsdAddr, config.Prefix, 1*time.Second, flushBytes)
 	if err != nil {
-		log.Printf("Could not initiale buffered client: %s. Falling back to a Noop Statsd client", err)
-		c, _ = statsd.NewNoopClient()
+		log.Printf("Could not initiale buffered client: %s.", err)
 	}
 	return &StatsdCollectorClient{
 		client:     c,
